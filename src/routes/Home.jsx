@@ -23,11 +23,11 @@ function Home() {
 
   /*criando o objeto de imagens*/
   const imagens = [
-    { id: '1', image: './src/images/galeria1.jpeg' },
-    { id: '2', image: './src/images/galeria2.jpeg' },
-    { id: '3', image: './src/images/galeria3.jpeg' },
-    { id: '4', image: './src/images/galeria4.jpeg' },
-    { id: '5', image: './src/images/galeria5.jpeg' },
+    { id: '1', image: '/assets/galeria1.jpeg' },
+    { id: '2', image: '/assets/galeria2.jpeg' },
+    { id: '3', image: '/assets/galeria3.jpeg' },
+    { id: '4', image: '/assets/galeria4.jpeg' },
+    { id: '5', image: '/assets/galeria5.jpeg' },
   ];
 
   return (

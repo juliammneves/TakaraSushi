@@ -22,6 +22,7 @@ function Login() {
         Math.random().toString(16).substring(2);
       sessionStorage.setItem('userData', 'admin');
       sessionStorage.setItem('senhaData', token);
+      navigate('/pedidos');
     } else {
       alert('usuário e senha inválidos !!!');
     }

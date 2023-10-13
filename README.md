@@ -9,4 +9,4 @@
 550788 - Gabriel Diegues Figueiredo Rocha
 
 
-Link do site: 
+Link do site: https://takara-sushi.vercel.app/

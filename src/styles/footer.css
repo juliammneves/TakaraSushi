@@ -1,0 +1,27 @@
+footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 8%;
+   background-color: var(--destaque);
+   color: var(--bg-color);
+}
+
+footer h2 span {
+   color: var(--bg-color);
+}
+
+footer .icons {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+footer .icon {
+   transition: all .3s ease-in-out;
+   cursor: pointer;
+}
+
+footer .icon:hover {
+   color: black;
+}

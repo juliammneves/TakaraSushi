@@ -1,0 +1,79 @@
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1.2rem 8%;
+   z-index: 10;
+   width: 100%;
+   position: absolute;
+}
+
+hr {
+   border: none;
+   border-bottom: 1px solid #f4ebe5de;
+   z-index: -2;
+   position: relative;
+}
+
+.linha {
+   position: absolute;
+   top: 5rem;
+   width: 100%;
+}
+
+ul {
+   display: flex;
+   list-style: none;
+   gap: 2rem;
+}
+
+header h2 {
+   font-weight: 600;
+   font-size: 28px;
+}
+
+h2 span {
+   color: var(--destaque);
+}
+
+h2,
+a {
+   color: var(--font-color);
+}
+
+nav a {
+   font-weight: 500;
+   transition: all .3s ease-in-out;
+   padding-bottom: .2rem;
+}
+
+nav a:hover {
+   color: var(--destaque);
+   border-bottom: 1px solid var(--destaque);
+}
+
+.botoes-de-acesso {
+   display: flex;
+   width: 6rem;
+   justify-content: center;
+}
+
+.login-btn {
+   padding: 8px 20px;
+   color: var(--destaque);
+   border: none;
+   border-radius: 5px;
+   background-color: transparent;
+   border: 2px solid var(--destaque);
+   font-weight: 700;
+   letter-spacing: px;
+   transition: all .3s ease-in-out;
+   cursor: pointer;
+}
+
+.login-btn:hover {
+   letter-spacing: 2px;
+   background-color: var(--destaque);
+   border: 2px solid var(--destaque);
+   color: var(--bg-color);
+}

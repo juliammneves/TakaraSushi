@@ -1,0 +1,128 @@
+.login .box {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 8%;
+}
+
+.login form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 5%;
+   border-radius: 15px;
+   background-color: var(--bg-color);
+   position: relative;
+   gap: 20px;
+}
+
+
+.login h1 {
+   text-align: center;
+
+}
+
+.login form .content {
+   display: flex;
+   flex-direction: column;
+   font-weight: 500;
+}
+
+.login form .input {
+   background-color: transparent;
+   border-bottom: 1px solid black;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+
+}
+
+.login form .icon {
+   color: black;
+}
+
+.login form input {
+   background-color: transparent;
+   border: none;
+   outline: none;
+}
+
+.login form input::placeholder {
+   color: black;
+}
+
+.login .btn {
+   margin-top: 10px;
+   font-weight: 600;
+   cursor: pointer;
+   font-size: 18px;
+   transition: all .3s ease-in-out;
+}
+
+.login .btn:hover {
+   color: var(--destaque);
+}
+
+.entrou {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+
+.entrou p {
+   position: absolute;
+   z-index: -1;
+   color: #f4eae4b1;
+   font-size: 12rem;
+   font-weight: 600;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+   text-align: center;
+
+}
+
+.entrou a {
+   width: 50%;
+   display: inline-block;
+   padding: 10px 25px;
+   color: var(--destaque);
+   border-radius: 5px;
+   background-color: transparent;
+   border: 2px solid var(--destaque);
+   font-weight: 700;
+   letter-spacing: px;
+   background-color: transparent;
+   transition: all .3s ease-in-out;
+   cursor: pointer;
+   text-align: center;
+}
+
+.entrou a:hover {
+   letter-spacing: 1px;
+}
+
+.logout {
+
+   padding: 10px 25px;
+   color: var(--bg-color);
+   border-radius: 5px;
+   background-color: transparent;
+   border: 2px solid var(--destaque);
+   font-weight: 700;
+   letter-spacing: px;
+   background-color: var(--destaque);
+   transition: all .3s ease-in-out;
+   cursor: pointer;
+}
+
+.logout:hover {
+   letter-spacing: 2px;
+}

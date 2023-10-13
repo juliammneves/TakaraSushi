@@ -1,0 +1,199 @@
+.produtos {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 8%;
+   padding: 7% 0;
+
+}
+
+.produtos h1 {
+   margin: 20px;
+}
+
+.produtos .tabela {
+   width: 100%;
+}
+
+.meio {
+   width: 5%;
+}
+
+.pouco {
+   width: 2%;
+}
+
+.medio {
+   width: 10%;
+}
+
+.grande {
+   width: 66%;
+}
+
+th {
+   width: 20%;
+   text-align: left;
+}
+
+th,
+td {
+   border-bottom: 1px solid #ddd;
+   padding: 10px;
+}
+
+.cadastrar {
+   display: inline-block;
+   margin-top: 20px;
+   padding: 10px;
+   border: 2px solid var(--destaque);
+   width: 100%;
+   text-align: center;
+   font-weight: 600;
+   color: var(--destaque);
+   transition: all .3s ease-in-out;
+}
+
+.cadastrar:hover {
+   color: var(--bg-color);
+   background-color: var(--destaque);
+}
+
+tr {
+   transition: all .3s ease-in-out;
+}
+
+tr:hover {
+   background-color: #f4eae4b1;
+}
+
+table .icons {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+table .icon {
+   transition: all .3s ease-in-out;
+}
+
+table .icon:hover {
+   color: var(--destaque);
+}
+
+.produtos form,
+.excluir {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2% 5%;
+   border-radius: 15px;
+   background-color: var(--bg-color);
+   position: relative;
+   gap: 20px;
+}
+
+.produtos form .content {
+   display: flex;
+   flex-direction: column;
+}
+
+.produtos .input,
+.desc {
+   width: 20rem;
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   border-bottom: 1px solid black;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.produtos input,
+.produtos textarea {
+   width: 100%;
+   background-color: transparent;
+   border: none;
+   outline: none;
+}
+
+.desc {
+   height: 8rem;
+   align-items: self-start;
+}
+
+.desc .icon {
+   margin-top: 1px;
+}
+
+.desc textarea {
+   height: 100%;
+   resize: none;
+}
+
+.produtos button {
+   margin-top: 10px;
+   font-weight: 600;
+   cursor: pointer;
+   font-size: 20px;
+   transition: all .3s ease-in-out;
+   background-color: transparent;
+   border: none;
+}
+
+.produtos button:hover {
+   color: var(--destaque);
+}
+
+.btns {
+   display: flex;
+   gap: 2rem
+}
+
+.excluir {
+   padding: 5% 5%;
+}
+
+.info p {
+   display: flex;
+   flex-direction: column;
+   border-bottom: 1px solid black;
+}
+
+.info span {
+   font-weight: 700;
+}
+
+.info {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 18rem;
+}
+
+.excluir-desc {
+   height: 8rem;
+   flex-wrap: wrap;
+}
+
+.produtos .logout {
+   font-size: 16px;
+   padding: 10px 25px;
+   color: var(--bg-color);
+   border-radius: 5px;
+   background-color: var(--destaque);
+   border: 2px solid var(--destaque);
+   font-weight: 700;
+   letter-spacing: px;
+   transition: all .3s ease-in-out;
+   cursor: pointer;
+}
+
+.produtos .logout:hover {
+   color: var(--bg-color);
+   letter-spacing: 2px;
+}

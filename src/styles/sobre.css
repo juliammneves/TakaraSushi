@@ -1,0 +1,26 @@
+.sobre-pag {
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   margin: 0 8%;
+   padding-top: 5%;
+   height: 100vh;
+}
+
+.sobre-pag img {
+   height: 500px;
+   width: 600px;
+   object-fit: cover;
+   border-radius: 15px;
+}
+
+.sobre-pag .texto {
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+}
+
+.sobre-pag h1 {
+   margin-bottom: 20px;
+}

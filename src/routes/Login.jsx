@@ -15,6 +15,7 @@ function Login() {
 
   /*função que verifica se o usuario e senha são validos e grava na sessão */
   const handleSubmit = () => {
+    event.preventDefault();
     if (user.current.value === 'admin' && password.current.value === '12345') {
       let token =
         Math.random().toString(16).substring(2) +
